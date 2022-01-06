@@ -1,8 +1,8 @@
 clc
 % syms x1 x2 x3
-% solve(3*x1+x2+x3==-10,x1)
-% solve(2*x1+4*x2-x3==0,x2)
-% solve(x1+x2-3*x3==-2,x3)
+solve(3*x1+x2+x3==-10,x1)
+solve(2*x1+4*x2-x3==0,x2)
+solve(x1+x2-3*x3==-2,x3)
 f1=@(x2,x3) - x2./3 - x3./3 - 10/3;
 f2=@(x1,x3) x3./4 - x1./2;
 f3=@(x1,x2) x1./3 + x2./3 + 2/3;
