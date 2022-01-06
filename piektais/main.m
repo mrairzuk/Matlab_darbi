@@ -12,7 +12,7 @@ sumx2=sum(x.^2);
 sumx3=sum(x.^3);
 sumx4=sum(x.^4);
 sumy=sum(y);
-sumxy=sum(x.^y);
+sumxy=sum(x.*y);
 sumx2y=sum(x.^2.*y);
 
 A=[sumx4 sumx3 sumx2; sumx3 sumx2 sumx; sumx2 sumx n];
