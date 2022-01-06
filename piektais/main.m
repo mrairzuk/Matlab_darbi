@@ -26,7 +26,6 @@ disp(['y=' num2str(X(1)) 'x^2+' num2str(X(2)) 'x+' num2str(X(3))])
 hold on
 x1=linspace(1,50,100);
 yplot=x1.^2.*X(1)+x1.*X(2)+X(3);
+plot(x1,yplot,'k')
+
 koef=polyfit(x,y,2)
-yplot1=x1.^2.*koef(1)+x1.*koef(2)+koef(3);
-plot(x1,yplot,'r')
-plot(x1,yplot1, 'k')
